@@ -1021,12 +1021,12 @@ a{
     color: #fff;
     padding: .5rem 0;
     text-align: center;
-    font-weight:300;
 }
 
 .site-footer__text{
   display:block;
   margin-bottom: 1rem;
+  font-weight:200;
 }
 
 @media (min-width: 800px) {
