@@ -11,6 +11,10 @@
         transform: translateY(-50%);
         width: 100%;
         text-align: center;
+        padding-top: 88px;
+        @mixin atMedium{
+            padding-top: 60px;
+        }
     }
     &__title{
      font-weight:300;
