@@ -80,6 +80,7 @@
 
 	        this.menuIcon = (0, _jquery2.default)('.site-header__menu-icon');
 	        this.menuContent = (0, _jquery2.default)('.site-header__menu-content');
+	        this.siteHeader = (0, _jquery2.default)('.site-header');
 	        this.events();
 	    }
 
@@ -92,6 +93,8 @@
 	        key: 'toggleMenu',
 	        value: function toggleMenu() {
 	            this.menuContent.toggleClass('site-header__menu-content--is-visible');
+	            this.siteHeader.toggleClass('site-header--is-expanded');
+	            this.menuIcon.toggleClass('site-header__menu-icon--close-x');
 	        }
 	    }]);
 
